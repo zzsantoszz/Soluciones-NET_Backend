@@ -22,9 +22,6 @@ namespace EjercicioVenta
         [Column(TypeName = "Varchar")]
         public string NombreCliente { get; set; }
 
-        //clave foranea
-        //public int IdTipoDoc { get; set; }
-        //public TipoDocumento TipoDocumento { get; set; }
         public List<Venta> Ventas { get; set; }
     }
 }

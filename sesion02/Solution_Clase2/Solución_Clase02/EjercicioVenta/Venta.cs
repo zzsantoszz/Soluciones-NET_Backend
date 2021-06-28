@@ -22,5 +22,6 @@ namespace EjercicioVenta
         public int IdCliente { get; set; }
         public Cliente Cliente { get; set; }
 
+        public List<DetalleVenta> DetalleVentas { get; set; }
     }
 }

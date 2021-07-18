@@ -20,5 +20,6 @@ namespace Clase04
                 Console.WriteLine(item.IdRol  + "\t" + item.NombreRol);
             }
         }
+//        Console.ReadLine();
     }
 }
